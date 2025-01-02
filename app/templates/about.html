@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<h1>About</h1>
+<p>
+    Welcome to your ultimate productivity companion! Our Task Manager is a dynamic to-do app designed to simplify your life by offering seamless full CRUD (Create, Read, Update, Delete) support for managing your tasks. Whether you're organizing your day, planning a project, or tracking your goals, our app provides an intuitive and efficient platform to keep you in control.
+    With a sleek interface and powerful features, staying on top of your tasks has never been easier. Ready to take charge of your to-do list? Start now and experience the ease of managing your life, one task at a time!
+</p>
+<img src="{{ url_for('static', filename='css/Profile Picture.jpeg')}}" alt="">
+{% endblock content %}
